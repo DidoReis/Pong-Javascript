@@ -1,0 +1,61 @@
+body {
+  background: lightgrey;
+}
+
+#container {
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 41%,
+    rgba(11, 9, 52, 1) 83%
+  );
+  posistion: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 544px;
+  width: 1088px;
+}
+
+#user-score,
+#comp-score {
+  color: white;
+  position: absolute;
+  top: 12px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#user-score {
+  left: 562px;
+}
+
+#comp-score {
+  left: 1312px;
+}
+
+img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 544px;
+  width: 272px;
+}
+
+#user-paddle,
+#comp-paddle {
+  position: absolute;
+  background: white;
+  height: 72px;
+  width: 10px;
+}
+
+#ball {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+}
